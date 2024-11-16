@@ -13,7 +13,7 @@ import HightLightItems from './src/components/HighLightItems/HightLightItems';
 import SectionListCom from './src/components/SectionListCom/SectionListCom';
 import {DATA} from './src/components/constants';
 
-const App = () => {
+const Home = () => {
   const [favouriteItems, setFavouriteItems] = useState(false);
   const [flatListData, setFlatListData] = useState();
   const flatListdata = [
@@ -173,4 +173,4 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
 });
-export default App;
+export default Home;
